@@ -5,7 +5,7 @@ var body = document.getElementById("gradient");
 var button = document.querySelector(".Random");
 
 function gradient() {
-    body.style.background = "linear-gradient( to right, " + color1.value + ", " + color2.value + ")";
+    body.style.backgroundImage = "linear-gradient( 180deg, " + color1.value + ", " + color2.value + ")";
     css.textContent = body.style.background;
 }
 
